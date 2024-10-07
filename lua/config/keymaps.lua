@@ -20,6 +20,10 @@ kms("n", "<C-S-J>", move_step .. move_down)
 kms("n", "<C-S-K>", move_step .. move_up)
 kms("n", "<C-S-L>", move_step .. move_right)
 
+-- cellular-automaton
+kms("n", "<leader>mir", "<cmd>CellularAutomaton make_it_rain<CR>")
+kms("n", "<leader>gol", "<cmd>CellularAutomaton game_of_life<CR>")
+
 ----------VISUAL----------
 
 ----------INSERT----------
